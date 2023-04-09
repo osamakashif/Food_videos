@@ -3,7 +3,7 @@ import { Recipe } from "./interface/Recipe";
 import { readTSV } from "./helpers/file_reader";
 import { tsvToJSON } from "./helpers/JSON_convertors";
 import { recipeFromJSON } from "./helpers/recipe_creator";
-import { Grid, Typography } from '@mui/material';
+import { CircularProgress, Grid, Typography } from '@mui/material';
 import { RecipeCard } from "./components/RecipeCard";
 
 function App() {
@@ -26,6 +26,7 @@ function App() {
         <Typography variant="h2" textAlign={"center"} sx={{ marginTop: "2%", marginBottom: "2%" }}>Recipes</Typography>
       </header>
       <Grid container spacing={1} justifyContent={"center"}>
+        {!loaded && <CircularProgress />}
         {recipes.map((recipe, index) => {
           return (
             <Grid key={index} item xs={10} sm={8} md={5} lg={4} xl={3} display={"flex"} justifyContent={"center"}>
