@@ -6,9 +6,9 @@ import './links.css'
 
 export const RecipeCard = ({ name, youtube, website, cuisine, image }: Recipe) => {
     return (
-        <Card sx={{ width: 350, height: 200 }}>
+        <Card sx={{ width: 350, height: 250, marginTop: "2%", marginBottom: "2%" }}>
             {image && <CardMedia
-                sx={{ height: 140 }}
+                sx={{ height: 100 }}
                 image={image}
                 title="Recipe image"
             />}
