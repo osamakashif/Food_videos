@@ -12,15 +12,15 @@ export const RecipeCard = ({ name, youtube, website, cuisine, image }: Recipe) =
                 image={image}
                 title="Recipe image"
             />}
-            <CardContent sx={{ position: "absolute", top: "50%" }}>
+            <CardContent sx={{ position: "absolute", top: "40%" }}>
                 {name && <Typography gutterBottom variant="h5" component="div">
                     {name}
                 </Typography>}
-                {cuisine && <Typography variant="body2" color="text.secondary">
+                {cuisine && <Typography noWrap variant="body2" color="text.secondary">
                     {cuisine}
                 </Typography>}
             </CardContent>
-            <CardActions sx={{ position: "absolute", bottom: 0 }}>
+            <CardActions sx={{ position: "absolute", bottom: "1%", left: "2%" }}>
                 {website && <a className='website' href={website} target="_blank" rel="noreferrer">
                     <LanguageIcon />
                 </a>}
