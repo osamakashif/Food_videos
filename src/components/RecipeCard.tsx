@@ -1,0 +1,33 @@
+import { Card, CardMedia, CardContent, Typography, CardActions } from '@mui/material';
+import { Recipe } from '../interface/Recipe';
+import LanguageIcon from '@mui/icons-material/Language';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import './links.css'
+
+export const RecipeCard = ({ name, youtube, website, cuisine, image }: Recipe) => {
+    return (
+        <Card sx={{ width: 350, height: 200 }}>
+            {image && <CardMedia
+                sx={{ height: 140 }}
+                image={image}
+                title="Recipe image"
+            />}
+            <CardContent>
+                {name && <Typography gutterBottom variant="h5" component="div">
+                    {name}
+                </Typography>}
+                {cuisine && <Typography variant="body2" color="text.secondary">
+                    {cuisine}
+                </Typography>}
+            </CardContent>
+            <CardActions>
+                {website && <a className='website' href={website} target="_blank" rel="noreferrer">
+                    <LanguageIcon />
+                </a>}
+                {youtube && <a className='youtube' href={youtube} target="_blank" rel="noreferrer">
+                    <YouTubeIcon />
+                </a>}
+            </CardActions>
+        </Card>
+    )
+}

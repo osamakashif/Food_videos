@@ -1,0 +1,14 @@
+a {
+    color: #000000;
+    opacity: 0.6;
+}
+
+.youtube :hover {
+    color: #FF0000;
+    opacity: 1.0;
+}
+
+.website :hover {
+    color: #2196F3;
+    opacity: 1.0;
+}
