@@ -1,7 +1,7 @@
 {
   "name": "food_videos",
   "version": "0.1.0",
-  "homepage": "https://osamakashif.github.io/Recipes",
+  "homepage": "https://osamakashif.github.io/Food_videos",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
