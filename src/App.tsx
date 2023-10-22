@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <header>
-        <Typography variant="h2" textAlign={"center"} sx={{ marginTop: "2%", marginBottom: "2%" }}>Recipes</Typography>
+        <Typography variant="h2" textAlign={"center"} sx={{ marginTop: "2%", marginBottom: "2%" }}>Food videos</Typography>
       </header>
       <Grid container spacing={1} justifyContent={"center"}>
         {!loaded && <CircularProgress />}
