@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Recipes/static/css/main.b8b3be6b.css",
-    "main.js": "/Recipes/static/js/main.7260b768.js",
-    "static/js/787.3e22468a.chunk.js": "/Recipes/static/js/787.3e22468a.chunk.js",
-    "service-worker.js": "/Recipes/service-worker.js",
-    "index.html": "/Recipes/index.html",
-    "main.b8b3be6b.css.map": "/Recipes/static/css/main.b8b3be6b.css.map",
-    "main.7260b768.js.map": "/Recipes/static/js/main.7260b768.js.map",
-    "787.3e22468a.chunk.js.map": "/Recipes/static/js/787.3e22468a.chunk.js.map"
+    "main.css": "/Food_videos/static/css/main.b8b3be6b.css",
+    "main.js": "/Food_videos/static/js/main.adc96740.js",
+    "static/js/787.7a99c8df.chunk.js": "/Food_videos/static/js/787.7a99c8df.chunk.js",
+    "service-worker.js": "/Food_videos/service-worker.js",
+    "index.html": "/Food_videos/index.html",
+    "main.b8b3be6b.css.map": "/Food_videos/static/css/main.b8b3be6b.css.map",
+    "main.adc96740.js.map": "/Food_videos/static/js/main.adc96740.js.map",
+    "787.7a99c8df.chunk.js.map": "/Food_videos/static/js/787.7a99c8df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8b3be6b.css",
-    "static/js/main.7260b768.js"
+    "static/js/main.adc96740.js"
   ]
 }
